@@ -2,11 +2,14 @@
 title: "HappyGitCh18"
 author: "csqr"
 date: "7/15/2021"
-output: html_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+```
+```{r}
+knitr::opts_chunk$set(error = TRUE)
 ```
 
 ## R Markdown
@@ -22,6 +25,9 @@ summary(cars)
 ## Including Plots
 
 You can also embed plots, for example:
+```{r}
+## insert your brilliant WORKING code here
+```
 
 ```{r pressure, echo=FALSE}
 plot(pressure)
